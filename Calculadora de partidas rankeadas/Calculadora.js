@@ -1,6 +1,7 @@
 function calcularSaldo(vitorias, derrotas){
     return vitorias - derrotas
 }
+
 let saldoVitorias = calcularSaldo(134, 15)
 
 if (saldoVitorias <= 10){
